@@ -1,0 +1,46 @@
+
+1.inicio
+
+2.  k, i[0-n]
+3.  k1,i[0-n]
+4.  residuo,i[0-n]
+5.  j,i[0-n]
+6.  resultado,i[0-n]
+7.
+8.  k <-- 1920
+9.  k1 <-- k
+10.  j <-- 0
+11.
+12.
+13.   Escribir " Ingrese un numero";
+14.     Leer n;
+15.     n <-- numero;
+16.
+17.   mientras(k1 > 0)entonces
+18.
+19.     residuo <-- k1 mod10;
+20.     resultado <-- residuo * 10 ^ j;
+21.
+22.     k1<--1920/10;
+23.     residuo1 <-- k1 mod10;
+24.     j <-- j + 1;
+25.     resultado1<-- residuo1 * 10 ^ j;
+26.
+27.     k1<-- 192/10;
+28.     residuo2 <-- k1 mod10;
+29.     j<-- j + 2;
+30.     resultado2 <-- residuo2 * 10 ^ j;
+31.
+32. 
+33.     k1 19/10;
+34.     residuo3 <-- k1 mod10;
+35.     j<-- j + 3
+36.     resultado3 <-- residuo3 * 10 ^ j;
+37.
+38.
+39.   Fin mientras
+40.  
+41.   
+42.   Escribir <--  "resultado \n, resultado1 \n, resultado2 \n, resultado3" 
+
+
